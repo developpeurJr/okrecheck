@@ -19,8 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <meta name="google-site-verification" content="lkhfQi2af94FdGfBOABnu4vaaIizOIN8UGKGgTNE-Js" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        
       </body>
     </html>
   );
