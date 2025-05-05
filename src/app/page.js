@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.zoneNav}>
-        <h1 className={styles.nomSite}>ErrorBête</h1>
+        <h1 className={styles.nomSite}>OkRecheck</h1>
         <button className={styles.boutonSupport}>
           <FaHeart color="red" size={35} style={{ marginRight: "8px" }} />
-          <p className={styles.supportTitre}>Support</p>
+          <p className={styles.supportTitre}>Support the project</p>
         </button>
       </div>
 

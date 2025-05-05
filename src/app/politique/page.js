@@ -39,11 +39,11 @@ export default function Confidentialite() {
       <p>
         Pour toute question ou demande, vous pouvez nous contacter à :
         <br />
-        <strong>📧 contact@errorbete.app</strong>
+        <strong>📧 okrecheck@gmail.com</strong>
         <br />
         For any questions or requests, you can contact us at:
         <br />
-        <strong>📧 contact@errorbete.app</strong>
+        <strong>📧 okrecheck@gmail.com</strong>
       </p>
     </div>
   );

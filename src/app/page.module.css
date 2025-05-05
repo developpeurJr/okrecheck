@@ -50,7 +50,7 @@
 }
 .boutonSupport{
   height: 50px;
-  width: 180px;
+  width: 240px;
   border: blueviolet 2px solid;
   border-radius: 2px;
   font-size: 16px;
@@ -135,6 +135,7 @@
   font-size: 22px;
   color: grey;
   margin-top: 7px;
+  text-align: center;
 }
 .zonefooter{
   height: 100px;
