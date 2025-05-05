@@ -25,10 +25,10 @@ export default function Home() {
     <div className={styles.page}>
       <div className={styles.zoneNav}>
         <h1 className={styles.nomSite}>OkRecheck</h1>
-        <button className={styles.boutonSupport}>
+        <a href="https://ko-fi.com/okrecheck_devnoai" className={styles.lienFooter}>  <button className={styles.boutonSupport}>
           <FaHeart color="red" size={35} style={{ marginRight: "8px" }} />
           <p className={styles.supportTitre}>Support the project</p>
-        </button>
+        </button></a>
       </div>
 
       <div className={styles.zone_header}>
