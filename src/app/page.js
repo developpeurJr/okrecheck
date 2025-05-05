@@ -16,7 +16,7 @@ export default function Home() {
     if (result.length > 0) {
       const newResult = result.map((m) => m[1]);
       console.log(newResult);
-      setVerifEmail(newResult.join(", "));
+      setVerifEmail(newResult.join(" - "));
       setErrorActive(true);
     }
   }
@@ -72,7 +72,7 @@ export default function Home() {
       </div>
 
       <div className={styles.zonefooter}>
-        <a href="/privacy-policy" className={styles.lienFooter}>
+        <a href="/politique" className={styles.lienFooter}>
           Privacy Policy
         </a>
       </div>
