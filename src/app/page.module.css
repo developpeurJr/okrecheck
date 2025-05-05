@@ -1,0 +1,148 @@
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.zone_header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputmail{
+  height: 360px;
+  width: 1000px;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 5px;
+  border: 1px solid #d1d5db;
+}
+.inputmail:hover {
+
+  border: 2px solid blueviolet;
+}
+.zoneNav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nomSite{
+  margin-left: 10px;
+}
+.spanError{
+  color: #e35050;
+  font-weight: 500;
+  font-weight:  bold;
+}
+.zoneValide{
+  border: 1px solid  #1c6639;
+  border-radius: 8px;
+  margin: 7px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 1000px;
+}
+.boutonSupport{
+  height: 50px;
+  width: 180px;
+  border: blueviolet 2px solid;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.supportTitre{
+  font-size: 20px;
+  font-weight: normal;
+  color: blueviolet;
+}
+.boutonCorriger:hover{
+  transition: 0.5ms;
+  background-color: rgb(71, 17, 119);
+}
+.zone_titre_header{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 330px;
+}
+.titreMail{
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: blueviolet;
+
+ 
+
+}
+.zoneErreur{
+  width: 1000px;
+  border: 1px solid #bc2f2f;
+  border-radius: 8px;
+  margin: 7px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.zoneBouton{
+  height: 80px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+.titreErreur{
+  font-size: 18px;
+  color:#d0334d
+}
+.titreValid{
+  color:#1c6639;
+  font-size: 18px;
+}
+.listeErreur{
+  font-size: 18px;
+  color: #d0334d;
+  font-weight: bold;
+}
+.boutonCorriger{
+  width: 100%;
+  height: 60px;
+  background-color: blueviolet;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+}
+.titreHeader
+{
+  font-size: 52px;
+  letter-spacing: -2px;
+  width: 77%;
+  text-align: center;
+}
+.soustitreHeader{
+  font-size: 22px;
+  color: grey;
+  margin-top: 7px;
+}
+.zonefooter{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lienFooter{
+  font-size: 20px;
+}
