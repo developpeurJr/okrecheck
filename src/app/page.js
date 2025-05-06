@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 
+
 export default function Home() {
   const [inputEmail, setInputEmail] = useState("");
   const [verifEmail, setVerifEmail] = useState("");
