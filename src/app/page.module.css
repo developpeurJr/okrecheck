@@ -36,7 +36,7 @@
   margin-left: 80px;
 }
 .heart {
-  animation: heartbeat 1.7s infinite;
+  animation: heartbeat 0.7s infinite;
 }
 @keyframes heartbeat {
   0%, 100% {
