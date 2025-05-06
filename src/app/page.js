@@ -42,8 +42,8 @@ export default function Home() {
           </p>
           <p className={styles.soustitreHeader}>
             MailShip automatically detects the elements you forgot to replace, such as:{" "}
-            <span className={styles.spanError}>[Your first and last name], [Name of the institution]</span>.
-          </p>
+            <span className={styles.spanError}>[Your first and last name], [Event date], [Product name]</span>
+            </p>
         </div>
 
         <textarea
