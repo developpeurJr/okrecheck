@@ -60,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 .supportTitre{
@@ -146,4 +146,52 @@
 }
 .lienFooter{
   font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles pour les téléphones classiques */
+  .zoneNav{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+  padding-top: 10px;
+  justify-content: space-around;
+  }
+  .nomSite{
+    font-size: 50px;
+    margin-left: 0;
+  }
+.titreHeader{
+  font-size: 40px;
+  width: 100%;
+}
+.zone_titre_header{
+  height: 75vh;
+  width: 100%;
+  margin-top: 19px;
+}
+.inputmail{
+  width: 96%;
+}
+.zoneBouton{
+  width: 96%;
+}
+.boutonSupport{
+  width: 270px;
+  height: 55px;
+}
+
+.supportTitre{
+  font-size: 19px;
+  
+}
+.soustitreHeader{
+  line-height: 1.5;
+}
+.titreHeader{
+  line-height: 1.2;
+}
+.inputmail{
+  height: 120px;
+}
 }
