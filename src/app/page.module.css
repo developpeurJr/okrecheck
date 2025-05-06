@@ -36,20 +36,20 @@
   margin-left: 80px;
 }
 .heart {
-  animation: heartbeat 1s infinite;
+  animation: heartbeat 1.7s infinite;
 }
 @keyframes heartbeat {
   0%, 100% {
     transform: scale(1);
   }
   25% {
-    transform: scale(1.2);
+    transform: scale(1.13);
   }
   50% {
-    transform: scale(1);
+    transform: scale(1.13);
   }
   75% {
-    transform: scale(1.2);
+    transform: scale(1.13);
   }
 }
 .spanError{
@@ -169,11 +169,15 @@
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 .lienFooter{
-  font-size: 20px;
+  font-size: 15px;
+}
+.lienFooterkofi{
+  font-size: 17px;
 }
 
 @media screen and (max-width: 480px) {
@@ -205,8 +209,8 @@
   width: 96%;
 }
 .boutonSupport{
-  width: 270px;
-  height: 55px;
+  width: 250px;
+  height: 52px;
   margin: 0;
 }
 
@@ -225,5 +229,8 @@
 }
 .spanError{
   width: 95%;
+}
+.lienFooter{
+  font-size: 16px;
 }
 }

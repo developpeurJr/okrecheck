@@ -73,6 +73,9 @@ export default function Home() {
       </div>
 
       <div className={styles.zonefooter}>
+      <a href="https://ko-fi.com/okrecheck_devnoai" className={styles.lienFooterkofi}>
+      Liked it? Support 
+        </a>
         <a href="/politique" className={styles.lienFooter}>
           Privacy Policy
         </a>
