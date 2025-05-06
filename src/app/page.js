@@ -27,7 +27,7 @@ export default function Home() {
       <div className={styles.zoneNav}>
         <h1 className={styles.nomSite}>OkRecheck</h1>
         <a href="https://ko-fi.com/okrecheck_devnoai" className={styles.lienFooter}>  <button className={styles.boutonSupport}>
-          <FaHeart color="red" size={28} style={{ marginRight: "8px" }} />
+        <FaHeart className={styles.heart} color="red" size={28} style={{ marginRight: "8px" }} />
           <p className={styles.supportTitre}>Support the project</p>
         </button></a>
       </div>

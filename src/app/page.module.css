@@ -33,12 +33,31 @@
   justify-content: space-between;
 }
 .nomSite{
-  margin-left: 10px;
+  margin-left: 80px;
+}
+.heart {
+  animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
 }
 .spanError{
   color: #e35050;
   font-weight: 500;
   font-weight:  bold;
+  font-size: 22px;
+  text-align: center;
 }
 .zoneValide{
   border: 1px solid  #1c6639;
@@ -50,7 +69,7 @@
 }
 .boutonSupport{
   height: 50px;
-  width: 240px;
+  width: 270px;
   border: blueviolet 2px solid;
   border-radius: 2px;
   font-size: 16px;
@@ -61,8 +80,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  margin-right: 70px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.boutonSupport:hover{
+  background-color: rgb(232, 207, 255);
+  transform: scale(1.03);
+ 
+}
 .supportTitre{
   font-size: 20px;
   font-weight: normal;
@@ -78,7 +104,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 330px;
+  height: 420px;
 }
 .titreMail{
   font-size: 50px;
@@ -130,12 +156,14 @@
   letter-spacing: -2px;
   width: 77%;
   text-align: center;
+  margin-bottom: 20px;
 }
 .soustitreHeader{
   font-size: 22px;
   color: grey;
   margin-top: 7px;
   text-align: center;
+  margin-bottom: 12px;
 }
 .zonefooter{
   height: 100px;
@@ -179,6 +207,7 @@
 .boutonSupport{
   width: 270px;
   height: 55px;
+  margin: 0;
 }
 
 .supportTitre{
@@ -193,5 +222,8 @@
 }
 .inputmail{
   height: 120px;
+}
+.spanError{
+  width: 95%;
 }
 }
